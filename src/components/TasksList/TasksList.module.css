@@ -1,0 +1,134 @@
+.block {
+  width: 55%;
+  float: right;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 40px;
+  margin-right: 5%;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.todo {
+  font-size: 40px;
+  font-weight: 700;
+  display: inline;
+  background: linear-gradient(180deg, #7c4eff 0%, #6db0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 5%;
+}
+
+.test {
+  width: 300px;
+  height: 80px;
+  border: double 4px transparent;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #f00, #3020ff);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.listItem {
+  width: 90%;
+  height: 150px;
+  background-color: #eeeeee;
+  margin-top: 3%;
+  text-align: left;
+  padding-left: 5%;
+  border: 4px solid black;
+  inset: 0;
+  border-radius: 25px;
+  padding: 3px;
+  padding-left: 15px;
+  margin-left: 5%;
+  position: relative;
+
+  border: double 3px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(
+      rgba(238, 238, 238, 1),
+      rgba(238, 238, 238, 1)
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(109, 176, 255, 1),
+      rgba(124, 78, 255, 1)
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.statusCompleted label {
+  text-decoration: line-through;
+}
+
+.listItemPriority {
+  width: 90%;
+  height: 150px;
+  background-color: #eeeeee;
+  margin-top: 3%;
+  text-align: left;
+  padding-left: 5%;
+  border: 4px solid black;
+  inset: 0;
+  border-radius: 25px;
+  padding: 3px;
+  padding-left: 15px;
+  margin-left: 5%;
+  position: relative;
+
+  border: double 3px transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(
+      rgba(238, 238, 238, 1),
+      rgba(238, 238, 238, 1)
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 66, 54, 1),
+      rgba(109, 176, 255, 1),
+      rgba(124, 78, 255, 1)
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+.smallButton:hover {
+  color: white;
+}
+
+/* Sorting style */
+
+.sortingDiv {
+  margin-left: 70%;
+  font-size: 20px;
+}
+
+.sortingDiv p {
+  color: rgba(52, 52, 52, 1);
+  display: inline;
+}
+
+.sortingDiv button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  width: 100px;
+}
+
+.sortingDiv button i {
+  color: black;
+  font-size: 15px;
+}
+
+.sortingDiv button:hover {
+  text-decoration: underline;
+}
